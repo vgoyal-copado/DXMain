@@ -1,0 +1,11 @@
+{
+  "namespace": "",
+  "packageDirectories": [
+    {
+      "path": "./",
+      "default": true
+    }
+  ],
+  "sfdcLoginUrl": "",
+  "sourceApiVersion": "54.0"
+}
