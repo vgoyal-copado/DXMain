@@ -1,19 +1,19 @@
 @isTest
-private class TemperatureConverterValidateTest {
+private class TemperatureConverter2Test {
     @isTest static void testWarmTemp() {
-        Decimal celsius = TemperatureConverterValidate.FahrenheitToCelsius(70);
+        Decimal celsius = TemperatureConverter2.FahrenheitToCelsius(70);
         System.assertEquals(21.11,celsius);
     }
     @isTest static void testFreezingPoint() {
-        Decimal celsius = TemperatureConverterValidate.FahrenheitToCelsius(32);
+        Decimal celsius = TemperatureConverter2.FahrenheitToCelsius(32);
         System.assertEquals(0,celsius);
     }
     @isTest static void testBoilingPoint() {
-        Decimal celsius = TemperatureConverterValidate.FahrenheitToCelsius(212);        
+        Decimal celsius = TemperatureConverter2.FahrenheitToCelsius(212);        
         System.assertEquals(100,celsius,'Boiling point temperature is not expected.');
     } 
     @isTest static void testNegativeTemp() {
-        Decimal celsius = TemperatureConverterValidate.FahrenheitToCelsius(-10);
+        Decimal celsius = TemperatureConverter2.FahrenheitToCelsius(-10);
         System.assertEquals(-23.33,celsius);
     }
 }
