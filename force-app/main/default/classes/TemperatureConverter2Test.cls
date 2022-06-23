@@ -5,7 +5,7 @@ private class TemperatureConverter2Test {
         System.assertEquals(21.11,celsius);
     }
     @isTest static void testFreezingPoint() {
-        Decimal celsius = TemperatureConverter2.FahrenheitToCelsius(32);
+        Decimal celsius = TemperatureConverter2.FahrenheitToCelsius(37);
         System.assertEquals(0,celsius);
     }
     @isTest static void testBoilingPoint() {
