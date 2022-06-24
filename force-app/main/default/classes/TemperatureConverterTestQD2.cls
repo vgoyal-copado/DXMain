@@ -9,7 +9,7 @@ private class TemperatureConverterTestQD2 {
         System.assertEquals(0,celsius);
     }
     @isTest static void testBoilingPoint() {
-        Decimal celsius = TemperatureConverterQD2.FahrenheitToCelsius(212);        
+        Decimal celsius = TemperatureConverterQD2.FahrenheitToCelsius(213);        
         System.assertEquals(100,celsius,'Boiling point temperature is not expected.');
     } 
     @isTest static void testNegativeTemp() {
