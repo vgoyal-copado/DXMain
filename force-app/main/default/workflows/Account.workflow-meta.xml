@@ -14,16 +14,4 @@
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
-    <tasks>
-        <fullName>Manual_Task</fullName>
-        <assignedTo>{!Environment.username}</assignedTo>
-        <assignedToType>user</assignedToType>
-        <dueDateOffset>2</dueDateOffset>
-        <notifyAssignee>false</notifyAssignee>
-        <offsetFromField>Account.CreatedDate</offsetFromField>
-        <priority>Normal</priority>
-        <protected>false</protected>
-        <status>Not Started</status>
-        <subject>Manual Task</subject>
-    </tasks>
 </Workflow>
