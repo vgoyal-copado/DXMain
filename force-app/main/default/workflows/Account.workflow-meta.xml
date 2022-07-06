@@ -18,7 +18,7 @@
         <fullName>Manual_Task</fullName>
         <assignedTo>{!Environment.username}</assignedTo>
         <assignedToType>user</assignedToType>
-        <dueDateOffset>1</dueDateOffset>
+        <dueDateOffset>2</dueDateOffset>
         <notifyAssignee>false</notifyAssignee>
         <offsetFromField>Account.CreatedDate</offsetFromField>
         <priority>Normal</priority>
