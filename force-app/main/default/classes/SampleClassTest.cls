@@ -1,7 +1,8 @@
-@isTest
+@IsTest
 private class SampleClassTest {
-    @isTest
-    private static void method1() {
-        SampleClass sc = new SampleClass();
-    } 
+    
+    @IsTest
+    private static void getStringTest() {
+        SampleClass.getString();
+    }
 }

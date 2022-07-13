@@ -1,5 +1,6 @@
 public class SampleClass {
-    public SampleClass() {
     
+    public static String getString() {
+        return '1234';
     }
 }
