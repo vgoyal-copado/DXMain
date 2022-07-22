@@ -1,3 +1,2 @@
 **/*.profile-meta.xml
 **/layouts/*.layout-meta.xml
-**/classes/*.cls
