@@ -1,8 +1,8 @@
 public class SampleClassTG {
 
     public SampleClassTG() {
-        Integer abc = 1234;
+        Integer abc = 1234890;
         Boolean def = true;
-        String ghi = '';
+        String ghi = 'testing testing';
     }
 }
